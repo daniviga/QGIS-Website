@@ -287,15 +287,20 @@ to install both client and server applications on the same machine), type::
 
  sudo dnf install qgis-server python3-qgis
 
-+---------------+-------------+--------------+--------------+-------+
-| Distribution  | Version     | QGIS         | GRASS GIS    | with  |
-|               |             | version      | version      | 3D    |
-|               |             |              |              |       |
-+===============+=============+==============+==============+=======+
-| Fedora        | 27          | 3.2          | 7.4          | yes   |
-|               +-------------+--------------+--------------+-------+
-|               | 28          | 3.2          | 7.4          | yes   |
-+---------------+-------------+--------------+--------------+-------+
+This repository also provides a copy of SAGA compatible with the QGIS 3
+'Processing Toolbox'. It can be installed with the following commands::
+
+ sudo dnf install saga
+
++---------------+-------------+--------------+-------+--------------+---------+
+| Distribution  | Version     | QGIS         | with  | GRASS GIS    | SAGA    |
+|               |             | version      | 3D    | version      | version |
+|               |             |              |       |              |         |
++===============+=============+==============+=======+==============+=========+
+| Fedora        | 27          | 3.2          | yes   | 7.4          | 2.3.1   |
+|               +-------------+--------------+-------+--------------+---------+
+|               | 28          | 3.2          | yes   | 7.4          | 2.3.1   |
++---------------+-------------+--------------+-------+--------------+---------+
 
 More information are available at https://copr.fedorainfracloud.org/coprs/dani/qgis/
 
@@ -348,17 +353,20 @@ to install both client and server applications on the same machine), type::
 
  sudo dnf install qgis-server python3-qgis
 
-+---------------+-------------+--------------+--------------+-------+
-| Distribution  | Version     | QGIS         | GRASS GIS    | with  |
-|               |             | version      | version      | 3D    |
-|               |             |              |              |       |
-+===============+=============+==============+==============+=======+
-| Fedora        | 27          | 3.3          | 7.4          | yes   |
-|               +-------------+--------------+--------------+-------+
-|               | 28          | 3.3          | 7.4          | yes   |
-|               +-------------+--------------+--------------+-------+
-|               | rawhide     | 3.3          | 7.4          | yes   |
-+---------------+-------------+--------------+--------------+-------+
+This repository also provides a copy of SAGA compatible with the QGIS 3
+'Processing Toolbox'. It can be installed with the following commands::
+
+ sudo dnf install saga
+
++---------------+-------------+--------------+-------+--------------+---------+
+| Distribution  | Version     | QGIS         | with  | GRASS GIS    | SAGA    |
+|               |             | version      | 3D    | version      | version |
+|               |             |              |       |              |         |
++===============+=============+==============+=======+==============+=========+
+| Fedora        | 27          | 3.3          | yes   | 7.4          | 2.3.1   |
+|               +-------------+--------------+-------+--------------+---------+
+|               | 28          | 3.3          | yes   | 7.4          | 2.3.1   |
++---------------+-------------+--------------+-------+--------------+---------+
 
 Testing builds are updated on a weekly basis.
 More information are available at https://copr.fedorainfracloud.org/coprs/dani/qgis-testing/
